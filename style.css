@@ -1,0 +1,209 @@
+h1 {
+	color: black;
+    font-size: 2Opx;
+
+}
+
+p {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+ul.menu_top li{
+    float: center;
+
+}
+
+html{
+    font-size: 20px; /* px signifie 'pixels': la taille de base pour la police est désormais 10 pixels de haut  */
+    font-family :"Times New Roman";
+    background-color: whitesmoke; <couleur du fond !!!!!!! le beige
+    padding-left: 5em;
+    padding-right: 5em;
+}
+.box {
+    display: flex;
+    height: 9rem;
+    gap: 2rem;
+}
+
+.box > div {
+    flex: 5;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+ul.menu_top li{
+    float: center;
+}
+ul.navi,li.navi{
+    list-style-type: none;
+    line-height: 2; /*11;*/
+    display: inline-flex;
+    margin: 12px;
+    color: #012E4A;
+}
+
+ul.menu_top li{
+    float: center;
+}
+
+ul.menu_top li a{ 
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #036280; /*vert couleur barre navigation
+    color:black;
+    
+    font-size: 20px;
+
+}
+ul.menu_top li a:hover{
+    /*background-color: rgb(227, 117, 33);*/
+    background-color: #036280; couleur fond  
+    color: yellow;
+    font-size: 20px;
+}
+/* Style général du formulaire */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des étiquettes */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style des champs de saisie */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* Style du focus sur les champs */
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+/* Style du bouton de soumission */
+input[type="submit"] {
+  background-color: #012E4A;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: ; ca marche pas 
+}
+
+/* Style des messages d'erreur (optionnel) */
+.error-message {
+  color: #012E4A;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+/* Style responsive */
+@media screen and (max-width: 600px) {
+  form {
+    width: 100%;
+    padding: 10px;
+  }
+}
+/* Style général de la barre de navigation */
+nav {
+  background-color: #012E4A; BLEUUUUUU
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Ombre légère pour un effet de profondeur */
+}
+
+/* Style de la liste non ordonnée dans la barre de navigation */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Style des éléments de liste (liens) */
+nav ul li {
+  margin: 0 15px;
+}
+
+/* Style des liens dans la barre de navigation */
+nav ul li a {
+  color: floralwhite; /* Couleur du texte  */
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+/* Effet au survol des liens */
+nav ul li a:hover {
+  background-color: #81BECE; /* BLEU clair §§§§§§§§§§*/
+  color: #378BA4; /* BLEU DANS LA barre */
+}
+nav ul li a.active {
+  background-color: #036280; /* Doré foncé pour le lien actif */
+  color: #378BA4
+; /* Texte blanc cassé pour le lien actif */
+}
+
+/* Effet de brillance sur la barre de navigation */
+nav::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(to right, #378BA4
+);
+}
+
+/* Media query pour les écrans plus petits */
+@media screen and (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+}
